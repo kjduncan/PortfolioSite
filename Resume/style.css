@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import url(https://fonts.googleapis.com/css?family=Lora:400,400italic);
+
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+
+body{
+  background: url("images/IMG_3173.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.box{
+  width: 320px;
+  background-color: rgba(239, 239, 239, .75);;
+  padding: 30px 0px;
+  border-radius: 0px 5px 5px 0px;
+  margin-top: 50px;
+}
+.rectangle{
+  float: right;
+  background-color: #ccc;
+  color: #fff;
+  padding: 5px 0px;
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 0px 0px 0px 5px;
+}
+p{
+  clear: both;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+}
+h1{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+}
+.row{
+  padding: 0px 30px;
+}
+.row.special{
+  padding-right: 0px;
+}
+h2{
+  padding-left: 5px;
+  font-family: 'Lora', serif;
+  font-size; 15px;
+  font-style: italic;
+}
+.social{
+  background-image: url("images/socialsprite.png");
+  display: inline-block;
+  width: 34px;
+  height: 33px;
+  margin-top: 20px;
+}
+.social.twitter{
+  background-position: 1px 0px;
+}
+.social.linkedin{
+  background-position: 68px 0px;
+}
+.social.instagram{
+  background-position: 35px 0px;
+}
