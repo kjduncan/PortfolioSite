@@ -88,7 +88,7 @@ p {
       height: 100%;
     }
     .filter {
-      height: 88%;
+      height: 100%;
       width: 100%;
       background-color: rgba(128, 128, 128, 0.4);
       position: absolute;
@@ -169,13 +169,13 @@ p {
         }
       }
       &.mockupB {
-        background-image: url('../img/mockupB.png');
+        background-image: url('../img/MockupB.png');
       }
       &.ux {
         background-image: url('../img/CustomerJourneyMap.jpg');
       }
       &.mockupA {
-        background-image: url('../img/mockupA.png');
+        background-image: url('../img/MockupA.png');
       }
       &.alice {
         background-image: url('../img/alice.jpg');
@@ -184,8 +184,9 @@ p {
       &.portfolio1 {
         background-image: url('../img/Portfolio1.png');
       }
-      &.resume {
-        background-image: url('../img/ResumeSite.png');;
+      &.madlib {
+        background-image: url('../img/madlib.png');
+        background-position: center;
       }
       &:after {
         width: 200%;

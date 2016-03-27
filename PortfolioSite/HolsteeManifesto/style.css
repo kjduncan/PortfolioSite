@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Arvo);
+
+body {
+    font-family: 'arvo', serif;
+    text-transform: uppercase;
+    background-image: url("images/newlens4.jpg");
+}
+
+.wrapper {
+    width: 450px;
+    height: 650px;
+    background-color: rgba(255, 255, 255, 0.5);;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+p {
+    margin-bottom: -15px;
+    clear: both;
+}
+span {
+    font-size: 30px;
+}
+.jumbo{
+    font-size: 97px;
+    float: right;
+    line-height: 89px;
+}
+.medium{
+    font-size: 19px;
+}
+.medium-large{
+    font-size: 22px;
+}
+.medium-xlarge{
+    font-size: 24.5px;
+}
+.small{
+    font-size:15px
+}
+.medium-small{
+    font-size:18.5px;
+}
+.xsmall{
+    font-size:12px;
+}
+.left{
+    float: left;
+    width: 52%;
+}
+.right{
+    float: right;
+    width: 48%;
+}
+.mid-p{
+    margin-bottom:0px;
+}
+.medium-xsmall{
+    font-size: 15.8px;
+}
+.left2{
+    float: left;
+}
+.large{
+    font-size: 55px;
+    line-height: 55px;
+}
+.left.short{
+    width: 45%
+}
+.right.long{
+    width: 53%
+}
+.large-small{
+    font-size: 38px;
+    line-height: 41px;
+}
+.large-xsmall{
+    font-size: 30px;
+}

@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+
+
+body{
+  text-align: center;
+  font-family: 'Fjalla One';
+  font-size: 20px;
+  background: #e6eaf0;
+  line-height: 50px;
+}
+
+.wrapper {
+  margin-left: 25%;
+  margin-top: 12%;
+  width: 500px;
+  background-color: gray;
+  padding: 50px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.prompt {
+  margin-top: 10px;
+}
+
+input {
+  font-size: 24px;
+}
+
+.error {
+  outline-color: #8B1820;
+
+}
+
+.error-msg {
+  width: 40%;
+  color: #8B1820;
+  font-size: 16px;
+  margin: auto;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.fill {
+  background: white;
+  color: red;
+  border-bottom: 2px black solid;
+  font-family: 'Shadows Into Light';
+  padding: 0 6px;
+  margin: 4px;
+}
