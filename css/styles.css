@@ -1573,7 +1573,7 @@ p {
 
 .nav {
   background-color: #7CF4D3;
-  height: 12%;
+  height: 72px;
   width: 100%;
   padding: 0;
   margin: 0;
@@ -1611,7 +1611,7 @@ p {
   font-size: 18px;
   font-weight: 500;
   color: #4F4F4F;
-  line-height: 70px;
+  line-height: 72px;
 }
 
 .section1 {
@@ -1661,7 +1661,9 @@ p {
   padding-top: 90px;
 }
 .section2 h1 {
-  margin-bottom: 150px;
+  margin-bottom: 145px;
+  margin-top: 30px;
+  line-height: 0;
 }
 .section2 .columns {
   margin-bottom: 32px;
@@ -1816,6 +1818,9 @@ p {
   -webkit-transform-origin: 100% 100%;
           transform-origin: 100% 100%;
   background-color: #9EFFB8;
+}
+.section3 h1 {
+  text-align: left;
 }
 
 .section4 {
