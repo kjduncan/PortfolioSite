@@ -60,23 +60,4 @@ $( document ).ready(function() {
 
     });
 
-    // var controller = new ScrollMagic.Controller();
-    //
-    //   function generalAnimations() {
-    //       new ScrollMagic.Scene({
-    //               // triggerElement: "#section1",
-    //               duration: 300
-    //           })
-    //           .setTween(".close-right", { transform: 'rotate(45deg) translateY(-20%)'})
-    //           // .setTween(".close-left", { transform: 'rotate(45deg) translateY(36%)'})
-    //           .addTo(controller);
-    //
-    //       // new ScrollMagic.Scene({
-    //       //         duration: 88
-    //       //     })
-    //       //     .setTween("#titles", {opacity: '0'})
-    //       //     .addTo(controller);
-    //   }
-
-
 });
