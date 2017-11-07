@@ -38,7 +38,7 @@ $( document ).ready(function() {
     });
 
     var rand = Math.floor((Math.random() * 1000) + 1);
-    var xhr = $.get("http://api.giphy.com/v1/gifs/search?q=90s&api_key=dc6zaTOxFJmzC&limit=5&offset=" + rand + "");
+    var xhr = $.get("http://api.giphy.com/v1/gifs/search?q=90s&rating=g&api_key=dc6zaTOxFJmzC&limit=5&offset=" + rand + "");
     xhr.done(function(data) {
       console.log("success got data", data);
       function changeGif(i) {

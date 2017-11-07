@@ -1697,11 +1697,18 @@ p {
 .section2 .project.mockupB {
   background-image: url("../img/MockupB.png");
 }
+.section2 .project.credit {
+  background-image: url("../img/creditfreezeform1.jpg");
+}
 .section2 .project.ux {
   background-image: url("../img/CustomerJourneyMap.jpg");
 }
 .section2 .project.sidedoor {
   background-image: url("../img/sdlarge.png");
+}
+.section2 .project.mary {
+  background-image: url("../img/mary_home.png");
+  background-position: center;
 }
 .section2 .project.proper {
   background-image: url("../img/properhome.png");
@@ -1712,6 +1719,10 @@ p {
 }
 .section2 .project.madlib {
   background-image: url("../img/madlib.png");
+  background-position: center;
+}
+.section2 .project.daily {
+  background-image: url("../img/UserProfile.jpg");
   background-position: center;
 }
 .section2 .project:after {
@@ -1736,6 +1747,10 @@ p {
 .pages {
   margin-top: 60px;
   margin-bottom: 20px;
+}
+
+.shadow {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .images {
